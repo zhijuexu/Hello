@@ -1,0 +1,25 @@
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment"
+        android:name="me.nim.hello.MainActivityFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="abc"
+            android:textSize="64dp" />
+
+        <Button
+            android:id="@+id/tick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="abc"
+            android:textSize="64dp" />
+    </RelativeLayout>
+</layout>
